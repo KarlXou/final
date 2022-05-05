@@ -1,0 +1,102 @@
+body {
+  font-family: "Open-Sans";
+  font-weight: lighter;
+  background: #E5E5E5;
+  width: 100%
+  padding: 20px;
+}
+
+#fashionlogo{
+  width: 150px;
+  height: auto;
+}
+
+.logo {
+  display: grid;
+  width: 100%;
+  place-items: center center;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  place-items: center center;
+  margin-right: 5vw;
+}
+
+.tabs a {
+  display: grid;
+  width: 100%;
+  place-items: center center;
+}
+
+.tabs li {
+  list-style: none;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.ringgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.coatgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.dressesgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.hatsgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.shoesgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.slacksgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.topsgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.ownerprofile {
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center center;
+}
+
+.fakelogos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
+
+.complimets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center center;
+}
