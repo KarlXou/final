@@ -21,6 +21,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   place-items: center center;
+  margin-right: 5vw;
 }
 
 .tabs a {
