@@ -19,8 +19,10 @@ body {
 
 .tabs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
   place-items: center center;
+  margin-right: 5vw;
 }
 
 .tabs a {
@@ -42,7 +44,8 @@ body {
 
 .ringgallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  width: 75%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center center;
 }
 
@@ -99,3 +102,4 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center center;
 }
+
