@@ -44,8 +44,7 @@ body {
 
 .ringgallery {
   display: grid;
-  width: 75%;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center center;
 }
 
